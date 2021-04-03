@@ -1,6 +1,7 @@
 
 .App {
   width:100vw;
+  margin:0 auto;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
@@ -13,8 +14,8 @@
 }
 .grid1 div .div{
   border-radius: 35px;
-  height: 292.60px;
-  width: 292.6px;
+  height: 22vh;
+  width: 25vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,12 +26,12 @@
 .grid1 div div p {
   margin: 0 auto;
  font-family: 'Montserrat', sans-serif;
-  font-size: 27.1px;
+  font-size: 2.5vh;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.2;
-  margin-left: 20px;
+  width:70%;
   letter-spacing: normal;
   text-align: center;
   color: #353535;
@@ -42,7 +43,7 @@
   padding-top: 250px;
   font-family: Arial, Helvetica, sans-serif;
   display:grid;
-  width: 80%;
+  width: 80vw;
   height: fit-content;
   border-radius: 30px;
   margin: 0 auto;
@@ -54,57 +55,80 @@
 } 
 
 .grid1{
-  padding-right: 10px;
   display:grid;
-  width: 85%;
-  border-radius: 30px;
+  width: 90%;
   margin: 0 auto;
   grid-template-rows:repeat(auto-fit,minmax(200px,1fr)); 
   grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-  grid-row-gap: 114.8px;
-  grid-column-gap:114.8px;
+  grid-row-gap: 15vh;
+  grid-column-gap:8vw;
   margin-bottom: 40px;
 } 
 
 .grid2{
-  padding-left: 14vw;
-  padding-right: 14vw;
+  width:"100%";
+  padding-left: 5vw;
+  padding-right: 5vw;
   display:grid;
   margin: 288px auto;
   margin-top: -190px;
   grid-template-rows:repeat(auto-fit,minmax(200px,1fr)); 
-  grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
-  grid-row-gap: 372px;
-  grid-column-gap:15vw;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-row-gap: 110px;
+  grid-column-gap:5vw;
 } 
 
-.grid2 div div{
+.grid20{
+  width:"60%";
+  padding-left: 20vw;
+  padding-right: 20vw;
+  display:grid;
+  margin: 288px auto;
+  margin-top: -190px;
+  grid-template-rows:repeat(auto-fit,minmax(200px,1fr)); 
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-row-gap: 110px;
+  grid-column-gap:3vw;
+
+}
+
+
+.grid2 div div, .grid20 div div{
+  box-shadow: 0 40px 40px 0 rgba(0, 0, 0, 0.1);
   border-color:  transparent;
   box-shadow: 5px 10px 18px #888888;
-  width: 532.7px;
-  height: 351.5px;
-  border-radius: 70.5px;
-  background-color: #f9c2c2;
+  width: 302.8px;
+  height: 205.6px;
+  border-radius: 36.5px;
+  background-color: white;
   
 
 }
-.grid2 div div p{
+.grid2 div div p, .grid20 div div p{
   width: 80%;
   height:fit-content;
  font-family: 'Montserrat', sans-serif;
-  font-size: 45px;
+  font-size: 31px;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
   line-height: 1.2;
   letter-spacing: normal;
   text-align: center;
-  color: #ffffff;
+  color: #2d2f41;
 }
-.grid2 div{
+.grid2 div, .grid20 div{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+.grid2 div img, .grid20 div img{
+  position: absolute;
+  z-index: 1;
+  width: 100;
+  height: 100;
 }
 
 .grid div{
@@ -155,9 +179,10 @@ button p{
 }
 .heading1 p{
   max-height: 101px;
-  margin: 0 32.5px 50.2px 20.4px;
+  margin: 0 auto;
+  width:80%;
  font-family: 'Montserrat', sans-serif;
-  font-size: 82.8px;
+  font-size: 6.5vh;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -169,12 +194,10 @@ button p{
 }
 
 .heading2{
-margin-top: 50.2px;}
+margin-top: 5vh}
 .heading3{
-  height: 91px;
-  margin: 92.9px 66.9px 90.8px 68px;
- font-family: 'Montserrat', sans-serif;
-  font-size: 74.2px;
+  margin: 42.9px 66.9px 90.8px 68px;
+  font-size: 7.4vh;
 
 
 }
@@ -185,7 +208,7 @@ margin-top: 50.2px;}
 .heading2 p{
   max-height: 100px;
  font-family: 'Montserrat', sans-serif;
-  font-size: 41.3px;
+  font-size: 3.2vh;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -194,7 +217,7 @@ margin-top: 50.2px;}
   text-align: center;
 }
 .heading3 p{
-  font-size: 74.2px;
+  font-size: 7.4vh;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -210,7 +233,7 @@ margin-top: 50.2px;}
   background-color: transparent;
   display: flex;
   position: sticky;
-  margin-top: -150px;
+  margin-top: -50px;
   z-index:1;
   justify-content: center;
   align-items: center;
@@ -222,7 +245,7 @@ margin-top: 50.2px;}
   margin-right: 20px;
   margin-top:20px ;
   border-radius: 45.9px;
-  width: 21vw;
+  width: 20vw;
   padding: .8%;
   height: fit-content;
   border-color:  transparent;
@@ -236,7 +259,7 @@ margin-top: 50.2px;}
   cursor: pointer;
 }
 .bt p{
-  font-size: 51px;
+  font-size: 4vh;
 
 }
  
@@ -286,38 +309,31 @@ margin-top: 50.2px;}
 
 }
 .headertop{
-  margin-top: -20px;
   display: flex;
   flex-wrap: wrap;
   padding-left: 10%;
   flex-direction: row;
   padding-right: 10%;
   justify-content: center;
-  background:url('./img/main-bg.svg') ;
-  background-repeat:no-repeat ;
-  background-size: cover;
-  height:80vh;
+  height:40vh;
   z-index: 1;
-  margin-top: -50px;
 }
 .number{
-  margin-left: 20px;
-  
+  width:100%;  
   margin-top: -150px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .number-in{
-  font-size: 31.6px;
-  max-width: 631.6px;
-  height: 93px;
-  margin: 35.6px 18.8px 23.6px 41.6px;
-  padding: 26.4px 47.8px 27.6px 47.8px;
+  font-size: 3vh;
+  margin-right: 10px;
+  height: 7.5vh;
   border-radius: 46.5px;
   border:2px solid transparent;
   box-shadow: 0 7px 2px 0 rgba(0, 0, 0, 0.05);
   background-color: #f9f9f9;
+  width: 70%;
 }
 input{
   box-shadow: 0 7px 2px 0 rgba(0, 0, 0, 0.05);
@@ -327,7 +343,7 @@ input{
   text-align: center;
   color: #777777;
  font-family: 'Montserrat', sans-serif;
-  font-size: 34.6px;
+  font-size: 3vh;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -337,10 +353,8 @@ input{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 210.6px;
-  height: 93px;
-  margin: 35.6px 3.7px 23.6px 5.5px;
-  padding: 25px 81.3px 26px 81.3px;
+  width:20%;
+  height: 7.5vh;
   border-radius: 46.5px;
   box-shadow: 0 7px 2px 0 rgba(0, 0, 0, 0.05);
   background-color: #83ffbe;
@@ -358,17 +372,17 @@ input{
   align-items: center;
   
   border-color: transparent;
-  width: 30vw;
-  height: 10vh;
-  margin: 158px auto ;
-  padding: 52px 54.5px 52px 54.5px;
+  width: 20vw;
+  height: 9vh;
+  margin: 5vh auto ;
+  padding: 25px 25px 25px 25px;
   border-radius: 77.5px;
   background-color: #83ffbe;
 }
 .heading4-bt p{
   width: 100%;
-  height: 47px;
-  font-size: 28.5px;
+  height: 4vh;
+  font-size: 2/5vh;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -383,16 +397,16 @@ input{
   justify-content: center;
   align-items: center;
   width: 85%;
-  height: 149px;
   margin: 0 auto;
   margin-bottom: 80px;
+  margin-top: 16vh;
   
 }
 
 .heading5 p{
   margin: 158px 14.8px 288.1px 21.8px;
  font-family: 'Montserrat', sans-serif;
-  font-size: 90px;
+  font-size: 7.4vh;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -415,16 +429,30 @@ input{
   flex-shrink: 10;
 
 }
+
+.hero{
+  display:grid;
+  width:95vw;
+  margin: 0 auto;
+  margin-top: 30px;
+  grid-template-rows:repeat(auto-fit,minmax(400px,1fr)); 
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-row-gap: 5vh;
+  grid-column-gap:0px;
+  margin-bottom: 80px;
+
+}
+
 .grid3{
   padding-top: 200px;
   display:grid;
-  width:85vw;
+  width:80vw;
   margin: 0 auto;
   margin-top: -190px;
   grid-template-rows:repeat(auto-fit,minmax(400px,1fr)); 
   grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
   grid-row-gap: 5vh;
-  grid-column-gap:65px;
+  grid-column-gap:6vw;
   margin-bottom: 80px;
 
 }
@@ -436,9 +464,9 @@ input{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 582px;
+  height: 450px;
   font-size: x-large;
-  width: 407px;
+  width: 300px;
   border-radius: 34.7px;
   box-shadow: 0 7px 2px 0 rgba(0, 0, 0, 0.15);
 }
@@ -453,7 +481,7 @@ input{
   height: 88%;
   width: 100%;
   color: #606060;
-  font-size: 30px;
+  font-size: 3.3vh;
 
 }
 .grid3 .grid1-3 .free, .grid3 .grid2-3 .free, .grid3 .grid3-3 .free {
@@ -473,21 +501,22 @@ input{
 }
 
 .grid3>div:hover{
-  transform: scale(1.1);
+  transform: scale(1.2);
 
 }
 .grid4{
  
   z-index:1;
   padding-top: 250px;
-  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 20vw;
+  padding-right: 20vw;
   display:grid;
   width:85vw;
   margin: 0 auto;
-  margin-top: -190px;
+  margin-top: -100px;
   grid-template-rows:repeat(auto-fit,minmax(400px,1fr)); 
   grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-  grid-row-gap: 5vh;
+  grid-row-gap: 10vh;
   grid-column-gap:5vw;
   margin-bottom: -40px;
 
@@ -509,6 +538,24 @@ input{
   align-items: center;
   box-shadow: 5px 10px 18px #888888;
 }
+
+.grid4 div img {
+  
+  width:300px;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  height: 450px;
+  font-size: large;
+  min-width: none;
+  border-radius: 21.6px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 5px 10px 18px #888888;
+}
+
 .grid4 div div p{
   border-top-left-radius:21.6px ;
   height:150px;
@@ -590,8 +637,8 @@ li div{
   color: azure;
   padding:40px;
   border-radius: 30px;
-  width: 400.6px;
-  height: 400.6px;
+  width: 300.6px;
+  height: 300.6px;
   margin: 108.8px 0 0;
   display: flex;
   flex-direction: column;
@@ -674,14 +721,14 @@ li div{
   display:flex;
   justify-content: center;
   align-items: center;
-  margin: 370px auto 115px auto;
+  margin: 170px auto 115px auto;
 
 }
 .heading8 p{
   width: 16.6666vw;
   margin: 231.3px auto 42.2px auto;
  font-family: 'Montserrat', sans-serif;
-  font-size: 121.8px;
+  font-size: 7.5vh;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
