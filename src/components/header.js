@@ -74,23 +74,29 @@ export default function Navhead() {
 
 
       
-     <Modal  
-        style={{ backgroundColor:'transparent',borderRadius:'50px'}}
+     
+      <div   onClick={handleClose1}>
+     <Modal 
+        style={{ backgroundColor:'transparent',borderRadius:'50px', background:'transparent'}}
       show={show1} onHide={handleClose1} size="lg"
               centered
-              className="modal1"
-              
+              className="modal1 "
+              aria-labelledby="contained-modal-title-vcenter"
+              backdropClassName="backdrop-transparent"
+              backdrop={false}
+            
 
               > 
         <Modal.Body> 
-            <img style={{zIndex:'-1'}} width="300"src={pop}></img>
+            <img style={{zIndex:'-1', marginLeft:'-10%'}} width="300"src={pop}></img>
        
    
 </Modal.Body>        
         
       </Modal>
+      </div>
        <div className="nav1">
-      <Navbar style={{backgroundColor:"white",display:"flex", justifyContent:"space-evenly", margin:"0 auto", paddingRight:"12vw",paddingLeft:"12vw", paddingTop:'3vh'}} fixed="top" expand="lg">
+      <Navbar style={{backgroundColor:"white",display:"flex", justifyContent:"space-evenly", margin:"0 auto", paddingRight:"15vw",paddingLeft:"15vw", paddingTop:'3vh'}} fixed="top" expand="lg">
   <Navbar.Brand href="#home">LOGO</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav" >

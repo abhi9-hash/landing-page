@@ -15,9 +15,9 @@ function About() {
         <div>
             
         <div>
-          {/* <img  
+          <img  
           style={{maxHeight:'20rem',maxWidth:'15rem',zIndex:'-1',position:'absolute', marginTop:'-6rem'}} 
-          src={bgelement1}></img> */}
+          src={bgelement1}></img> 
           <div className="heading5"><p> How we Make <br></br>a Difference</p></div>
           
           <div className="header"><img 
@@ -29,16 +29,16 @@ function About() {
           </div>
           <div className="about">
            <div className="grid2">
-        <div className="grid-1" ><img  style={{marginTop:'-6rem'}} src={how1}></img><div><p>Guaranteed Job Placement</p></div></div>
+        <div className="grid-1" ><img  style={{marginTop:'-5.5rem'}} src={how1}></img><div><p>Guaranteed Job Placement</p></div></div>
         <div className="grid-2" ><img src={how4} style={{marginTop:'-8rem', zIndex:'1'}}  ></img><div><p>Expert Curated Programs</p></div></div>
-        <div className="grid-3"><img  src={how2} style={{marginTop:'-8rem'}}></img><div><p>Free Interview Preparation Toolkit</p></div></div>
+        <div className="grid-3"><img  src={how2} style={{marginTop:'-7.5rem'}}></img><div><p>Free Interview Preparation Toolkit</p></div></div>
         </div>
-         <div className="grid20">
+         <div className="grid20" >
         <div className="grid-4" ><img  style={{marginTop:'-8rem'}} src={how5} ></img><div><p>Assured Moneyback On Promise Break</p></div></div>
-        <div className="grid-6"><img   src={how3} style={{marginTop:'-10rem'}}></img><div><p>One to One Assistance</p></div></div>
+        <div className="grid-6" ><img   src={how3} style={{marginTop:'-10rem'}}></img><div><p>One to One Assistance</p></div></div>
         </div> 
-         <div>
-          <img src={bgelement5} style={{position:'absolute',marginLeft:'-15vw',marginTop:'-7rem',width:'40vw', zIndex:'-1'}}></img>
+         <div >
+          <img id="plans" src={bgelement5} style={{position:'absolute',marginLeft:'-15vw',marginTop:'-10rem',width:'40vw', zIndex:'-1'}}></img>
           <img src={bgelement2} style={{position:'absolute',marginTop:'4rem',marginLeft:'15vw',width:'40vw', zIndex:'-1'}}></img>
           </div> 
         </div>
