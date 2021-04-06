@@ -90,7 +90,7 @@ function App() {
      <About/>
      <Plans/>    
      
-     <div className="button"> <button onClick={handleShow} className="bt"><p>Register</p></button></div>
+     <div className="button"  id="details"> <button onClick={handleShow} className="bt"><p>Register</p></button></div>
      <Modal  
         style={{ backgroundColor:'transparent',borderRadius:'50px'}}
       show={show} onHide={handleClose} size="sm"
@@ -139,20 +139,27 @@ function App() {
 
 
       
-     <Modal  
-        style={{ backgroundColor:'transparent',borderRadius:'50px'}}
+  
+      <div   onClick={handleClose1}>
+     <Modal 
+        style={{ backgroundColor:'transparent',borderRadius:'50px', background:'transparent'}}
       show={show1} onHide={handleClose1} size="lg"
               centered
-              className="modal1"
+              className="modal1 "
+              aria-labelledby="contained-modal-title-vcenter"
+              backdropClassName="backdrop-transparent"
+              backdrop={false}
+            
 
               > 
         <Modal.Body> 
-            <img style={{zIndex:'-1'}} width="300"src={pop}></img>
+            <img style={{zIndex:'-1', marginLeft:'-10%'}} width="300"src={pop}></img>
        
    
 </Modal.Body>        
         
       </Modal>
+      </div>
       
 
      <Details/> 

@@ -6,8 +6,8 @@ import howto4 from '../img/howto-4.svg';
 
 function Jobs() {
     return (
-        <div className="jobs" id="about">
-             <div className="heading3"><p>How To Get Jobs In 4 Easy Steps</p></div>
+        <div className="jobs" >
+             <div className="heading3" ><p>How To Get Jobs In 4 Easy Steps</p></div>
 
 <div className="grid1" >
 <div className="grid11">

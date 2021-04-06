@@ -7,14 +7,14 @@ import bgelement1 from '../img/bg-element1.svg';
 function Plans() {
     return (
         <div>
-        <div className="heading6" style={{width:'100vw'}}>
+        <div className="heading61" style={{width:'100vw'}}>
           
         {/* <img style={{marginRight:'20vw',marginLeft:'-40vw',marginTop:'-30rem',width:'40rem', zIndex:'-1'}} 
           src={bgelement4}></img> */}
         <img style={{width:'30vw', zIndex:'-1',position:'absolute',marginLeft:'-40vw',marginTop:'7rem'}} src={bgelement6}>
           </img>
           
-          <p id="plans" > Our Plans </p>
+          <p> Our Plans </p>
         
         <img style={{width:'30vw', zIndex:'-1',position:'absolute',marginTop:'-20rem'}} src={bgelement5}>
           </img>
