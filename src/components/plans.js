@@ -26,29 +26,47 @@ function Plans() {
         <div className="grid3" >
         <div className="grid1-3">
           <div className='top'>
-            <p>Anyone who is looking for a.</p>
-            <p>Personnels actively looking for job role</p>
-            <p>Personnels actively looking for job role</p> </div>
+            <p>● Interactive Live Classes</p>
+            <p>● Lifetime Access.</p>
+            <p>● Build Resume and Linkedin Profile</p>
+            <p>● Placement Tips & Assistance</p>
+            <p>● Job Opportunities at Top companies</p> </div>
             <div className="free">
-              <p>Free</p>
+              <p><strike>3,999/-</strike>  1,999/-</p>
               </div>
               </div>
               <div className="grid2-3">
+              <div  style={{ borderTopLeftRadius: '30px',
+  borderTopRightRadius:' 30px',backgroundColor: '#92ffa9',
+  width: '100%'}}>
+            <p>Recommended</p>
+              </div>
           <div className='top'>
-            <p>Anyone who is lookib role to take.</p>
-            <p>Personnels actively looking for job role</p> 
-            <p>Personnels actively looking for job role</p></div>
+          
+          <p>● Interactive Live Classes</p>
+            <p>● Lifetime Access.</p>
+            <p>● Build Resume and Linkedin Profile</p>
+            <p>● Placement Tips & Assistance</p>
+            <p>● <b>Job Opportunities at Top companies</b></p>
+            <p>● <b>Unlimited Guaranteed Interviews</b></p>
+            <p>● Free GD, HR & Technical Interview Practice</p></div>
             <div className="free">
-              <p>Free</p>
+            <p><strike>7,999/-</strike>  3,999/-</p>
               </div>
               </div>
               <div className="grid3-3">
           <div className='top'>
-            <p>Anyone who isure which job role to take.</p>
-            <p>Personnels actively looking for job role</p>
-            <p>Personnels actively looking for job role</p> </div>
+          <p>● Interactive Live Classes</p>
+            <p>● Lifetime Access.</p>
+            <p>● Build Resume and Linkedin Profile</p>
+            <p>● Placement Tips & Assistance</p>
+            <p>● Job Opportunities at Top companies</p>
+            <p>● <b>1 on 1 Placement Assistance</b></p>
+            <p>● <b>Guaranteed Job</b></p>
+            <p>● <b>Assured Money Back</b></p>
+            <p>● Free GD, HR & Technical Interview Practice</p> </div>
             <div className="free">
-              <p>Free</p>
+            <p><strike>15,999/-</strike>  7,999/-</p>
               </div>
               </div>
        </div>

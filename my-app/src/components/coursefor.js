@@ -10,13 +10,13 @@ function Coursefor() {
        <div className="grid">
         <div >
           <img className="img4" src={who1} style={{position:'absolute', marginTop:'-5rem',marginLeft:'-10rem',zIndex:'-1'}}></img> 
-          <div>Anyone who is looking for a job but not sure which job role to take.</div></div>
+          <div>Experienced sales professionals looking to switch into top companies</div></div>
         <div >
            <img className="img5" src={who2} style={{position:'absolute', marginTop:'-9rem',marginLeft:'6rem',zIndex:'-1'}}></img> 
-          <div>Students about to start their professional journey</div></div>
+          <div>College graduates who are looking for sales job in top companies</div></div>
         <div >
            <img className="img6" src={who3} style={{position:'absolute', marginTop:'-10rem',marginLeft:'5rem',zIndex:'-1'}}></img> 
-          <div>Personnels actively looking for job role</div></div>
+          <div>Experienced professionals looking to switch into Sales profile</div></div>
         </div>
             
         </div>

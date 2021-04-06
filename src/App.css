@@ -157,7 +157,7 @@ align-items: flex-start;
   align-items: center;
 }
 .grid div div{
-  font-size: 1.75rem;
+  font-size: 1.6rem;
   border-radius: 35px;
   border: 2px solid transparent;
   height: 100%;
@@ -505,17 +505,47 @@ input{
   box-shadow: 0 7px 2px 0 rgba(0, 0, 0, 0.15);
 }
 
-.grid3 .grid1-3 .top, .grid3 .grid2-3 .top, .grid3 .grid3-3 .top {
+.grid3 .grid1-3 .top   {
   padding: 5%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  align-items: center;
+  align-items:flex-start;
   height: 88%;
   width: 100%;
   color: #606060;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  text-align: left;
+
+}
+
+.grid3 .grid2-3 .top{
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items:flex-start;
+  height: 88%;
+  width: 100%;
+  color: #606060;
+  font-size: 1.2rem;
+  text-align: left;
+
+}
+.grid3 .grid3-3 .top{
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items:flex-start;
+  height: 88%;
+  width: 100%;
+  color: #606060;
+  font-size: 1.05rem;
+  text-align: left;
 
 }
 .grid3 .grid1-3 .free, .grid3 .grid2-3 .free, .grid3 .grid3-3 .free {
@@ -529,7 +559,7 @@ input{
   align-items: center;
   z-index: 1;
   height: 12%;
-  font-size: 50px;
+  font-size: 1.5rem;
 
 
 }
@@ -687,13 +717,25 @@ li div{
   height: 8vh;
   border: 2px solid transparent;
   background-color: rgba(255, 255, 255, 1);
-  min-width: 62vw;
-  max-width: 800px;
+ width:70vw;
   min-height: 40px;
   margin-bottom: 40px;
+  font-size: 1.8rem;
   box-shadow: 5px 10px rgba(184, 175, 175,0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.in1{
+  border: 2px solid transparent;
+  background-color: rgba(255, 255, 255, 1);
+  width: 120%;
+    min-height: 40px;
+  margin-bottom: 40px;
+  font-size: 1.8rem;
+}
 
 .faq{
   display: flex;
@@ -777,6 +819,14 @@ li div{
   padding-top:3rem;
 
 }
+/* .carousel-indicators li {
+  width: 5px;
+  height: px;
+  border-radius: 50px;
+} */
+.carousel-indicators {
+  margin-bottom: -40px;
+}
 
 .heading7{
   width: 80%;
@@ -822,7 +872,27 @@ li div{
   color: #2b2b2b;
 }
 
+.heading9{
+  padding-top: 5rem;
+}
+.heading61 p{
+  margin-top: -5rem;
+}
 
+
+.grid3 .grid2-3 {
+  position: relative;
+  animation-name: example;
+  animation-duration: 3s;  
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from {bottom: 0px;}
+  to {bottom: 10vh; }
+}
 
 
 @media(max-width: 1000px) {
@@ -830,8 +900,12 @@ li div{
     font-size: 2rem;
     width: 100%;
     font-weight:bold;
-    padding-left: 1.5rem;
+    padding-left: .5rem;
   } 
+  @keyframes example {
+    from {left: 0px;}
+    to {left: 5%; }
+  }
   .heading4-bt p{
     font-size: 1.5rem;
 
@@ -840,6 +914,12 @@ li div{
     font-size: 1.1rem;
 
   }
+  .carousel-indicators {
+    bottom:-5vh;
+  }
+  .carousel-inner {
+    margin-bottom:7vh;
+ }  
   .heading3 p{
     margin-bottom: 0;
 
@@ -859,7 +939,7 @@ li div{
 
   }
   .grid div div{
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
   .grid1{
     display:90vw;
@@ -918,12 +998,15 @@ li div{
     padding-bottom: 15vh;
   }
   .number-in, .bt-in p, .bt-in {
-    font-size: 1.5vh;
+    font-size: 2vh;
   }
   .number-in, .bt-in{
     height: 2.5rem;
   }
 
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    font-size: 1.5vh;
+  }
   
 .grid2 div img, .grid20 div img{
   position: absolute;
@@ -950,10 +1033,11 @@ li div{
   }
   
 .grid div div{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
  
   .grid2{
+    grid-row-gap:12rem;
     padding-top: 5rem;
     margin-right: 0;
     margin-left: 5vw;
@@ -961,19 +1045,39 @@ li div{
     width: 50vw;
   }
   .grid20{
-    grid-column-gap: 5rem;
-    margin-top: -20vh;
+    height:70vh;
+    grid-column-gap: 3rem;
+    margin-top: -7vh;
     padding-top:-40rem;
     padding-left:0;
-    margin:0 auto;
     width: 50vw;
     padding-right: 0;
+  }
+  .grid-2{
+    margin-top: -2rem;
+
+  }
+  .grid-3{
+    margin-top: 2rem;
+
   }
   .grid3{
     margin-top: 2rem;
     padding-top: 0;
     margin-left: auto;
   }
+  .grid3 .grid1-3 .top{
+    font-size: 1.5rem;
+  }
+
+  .grid3 .grid2-3 .top{
+    font-size: 1.2rem;
+  }
+  .grid3 .grid3-3 .top{
+    font-size: 1.05rem;
+
+  }
+
   .grid1{
     padding:0;
    margin-right: 0;
@@ -1027,14 +1131,26 @@ li div{
 
 }
 .in{
-  height: 8vh;
   border: 2px solid transparent;
   background-color: rgba(255, 255, 255, 1);
-  min-width: 70vw;
-  max-width: 800px;
+  width: 90vw;
   min-height: 40px;
+  text-align: left;
   margin-bottom: 40px;
   box-shadow: 5px 10px rgba(184, 175, 175,0.2);
+  font-size: 1rem;
+}
+.in ,.in1{
+  text-align: left;
+  
+}
+.in1{
+  width:120%;
+  text-align: left;
+  font-size: .8rem;
+  margin-right: 5%;
+  height: fit-content;
+
 }
 }  
 

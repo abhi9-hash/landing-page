@@ -125,8 +125,10 @@ function App() {
           className="bt"
           onClick={(e)=>{
             handleClose();
+            (data.number>4000000000 && data.number<9999999999)&&
             submitHandler(e);
-            handleShow1()
+            (data.number>4000000000 && data.number<9999999999)?
+              handleShow1():(alert("Invalid Format of number"))
 
           }} type="submit">
             Submit
@@ -153,7 +155,7 @@ function App() {
 
               > 
         <Modal.Body> 
-            <img style={{zIndex:'-1', marginLeft:'-10%'}} width="300"src={pop}></img>
+            <img style={{zIndex:'-1', marginLeft:'-30%'}} width="350"src={pop}></img>
        
    
 </Modal.Body>        

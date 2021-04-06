@@ -1,14 +1,17 @@
 import React, { useState } from 'react'
 import pop from '../img/popup.png'
+import logo from '../img/logo-prep.svg'
 import axios from 'axios';
-import { Button, Nav, Navbar, Carousel,Modal } from 'react-bootstrap'
+import { Button, Nav, Navbar, Carousel,Modal, NavbarBrand, Collapse } from 'react-bootstrap'
 
 import {  Form, Container, Header} from 'semantic-ui-react';
+import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
 
 
 export default function Navhead() {
   const [data, setdata]=useState({name:'', number:''
 })
+const [open, setOpen] = useState(false);
   const [show, setShow] = useState(false);
   const [show1, setShow1] = useState(false);
   const handleClose = () => setShow(false);
@@ -60,8 +63,10 @@ export default function Navhead() {
           className="bt"
           onClick={(e)=>{
             handleClose();
+            (data.number>4000000000 && data.number<9999999999)&&
             submitHandler(e);
-            handleShow1()
+            (data.number>4000000000 && data.number<9999999999)?
+              handleShow1():(alert("Invalid Format of number"))
 
           }} type="submit">
             Submit
@@ -88,7 +93,7 @@ export default function Navhead() {
 
               > 
         <Modal.Body> 
-            <img style={{zIndex:'-1', marginLeft:'-10%'}} width="300"src={pop}></img>
+            <img style={{zIndex:'-1', marginLeft:'-50%'}} width="500" src={pop}></img>
        
    
 </Modal.Body>        
@@ -96,32 +101,31 @@ export default function Navhead() {
       </Modal>
       </div>
        <div className="nav1">
-      <Navbar style={{backgroundColor:"white",display:"flex", justifyContent:"space-evenly", margin:"0 auto", paddingRight:"15vw",paddingLeft:"15vw", paddingTop:'3vh'}} fixed="top" expand="lg">
-  <Navbar.Brand href="#home">LOGO</Navbar.Brand>
+      <Navbar style={{fontSize:'1.5rem',backgroundColor:"white",display:"flex", justifyContent:"space-evenly", margin:"0 auto", paddingRight:"15vw",paddingLeft:"15vw", paddingTop:'3vh'}} fixed="top" expand="lg">
+  <Navbar.Brand href="#home">{<img width="70" src={logo}></img>}</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav" >
   <div style={{display:"flex", justifyContent:"space-evenly", color:"black",alignItems:"center", marin:"0 auto", width:"100%"}}>
-     <Nav.Link href="#about" style={{color:"black"}}>About</Nav.Link>
-     <Nav.Link href="#plans" style={{color:"black"}}>Plans</Nav.Link>
-     <Nav.Link href="#details" style={{color:"black"}}>Details</Nav.Link>
+     <Nav.Link   href="#about" style={{color:"black"}}>About</Nav.Link>
+     <Nav.Link   href="#plans" style={{color:"black"}}>Plans</Nav.Link>
+     <Nav.Link   href="#details" style={{color:"black"}}>Details</Nav.Link>
   </div>   
   </Navbar.Collapse>
-  <Button onClick={handleShow} style={{backgroundColor:" #f9bb85", borderColor:"transparent", fontSize:"2rem", width:"fit-content", 
+  <Button onClick={handleShow} style={{backgroundColor:" #f9bb85", borderColor:"transparent", fontSize:"1.5rem", width:"fit-content", 
  boxShadow: '0 7px 2px 0 rgba(0, 0, 0, 0.05)'}}>Talk To Us</Button>
 </Navbar>
 </div>
 <div className="nav2">
 
-<Navbar style={{backgroundColor:"white",display:"flex", fontSize:"1rem",justifyContent:"space-between", margin:"0 auto",  paddingTop:'3vh'}} fixed="top" expand="lg">
+<Navbar style={{backgroundColor:"white",display:"flex", fontSize:"1rem",justifyContent:"space-between", margin:"0 auto",  paddingTop:'1vh'}} fixed="top" expand="lg">
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
-  <Navbar.Collapse id="basic-navbar-nav" >
-  <div style={{display:"flex", justifyContent:"space-evenly", color:"black",alignItems:"center", marin:"0 auto", width:"100%"}}>
-     <Nav.Link href="#about" style={{color:"black"}}>About</Nav.Link>
-     <Nav.Link href="#plans" style={{color:"black"}}>Plans</Nav.Link>
-     <Nav.Link href="#details" style={{color:"black"}}>Details</Nav.Link>
-  </div>   
+  <Navbar.Collapse  id="basic-navbar-nav" >
+   <Nav ><Nav.Link  href="#about" style={{color:"black"}}>About</Nav.Link>
+     <Nav.Link  href="#plans" style={{color:"black"}}>Plans</Nav.Link>
+     <Nav.Link  href="#details" style={{color:"black"}}>Details</Nav.Link>
+     </Nav>  
   </Navbar.Collapse>
-  <Navbar.Brand href="#home">LOGO</Navbar.Brand>
+  <Navbar.Brand href="#home">{<img width="50" style={{marginLeft:'20%'}}src={logo}></img>}</Navbar.Brand>
   <Button onClick={handleShow}style={{backgroundColor:" #f9bb85", borderColor:"transparent", fontSize:"1rem", width:"fit-content", 
  boxShadow: '0 7px 2px 0 rgba(0, 0, 0, 0.05)'}}>Talk To Us</Button>
 </Navbar>

@@ -31,7 +31,7 @@ function About() {
            <div className="grid2">
         <div className="grid-1" ><img  style={{marginTop:'-5.5rem'}} src={how1}></img><div><p>Guaranteed Job Placement</p></div></div>
         <div className="grid-2" ><img src={how4} style={{marginTop:'-8rem', zIndex:'1'}}  ></img><div><p>Expert Curated Programs</p></div></div>
-        <div className="grid-3"><img  src={how2} style={{marginTop:'-7.5rem'}}></img><div><p>Free Interview Preparation Toolkit</p></div></div>
+        <div className="grid-3"><img  src={how2} style={{marginTop:'-8rem'}}></img><div><p>Free Interview Preparation Toolkit</p></div></div>
         </div>
          <div className="grid20" >
         <div className="grid-4" ><img  style={{marginTop:'-8rem'}} src={how5} ></img><div><p>Assured Moneyback On Promise Break</p></div></div>

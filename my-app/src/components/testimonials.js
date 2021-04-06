@@ -47,11 +47,11 @@ function Testimonials() {
              <div className="detailsslide" style={{margin: '5rem auto', width:'100%'}}>
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-    <li style={{background:'rgba(245, 214, 235, .6)'}}data-target="#carouselExampleIndicators" data-slide-to="0" ></li>
-    <li style={{background:'rgba(245, 214, 235, .6)'}}data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li  style={{background:'rgba(245, 214, 235, .6)'}}data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li style={{background:'rgba(131, 133, 123, .6)',width:'20px',height:'5px', borderRadius:'50%'}}data-target="#carouselExampleIndicators" data-slide-to="0" ></li>
+    <li style={{background:'rgba(131, 133, 123, .6)',width:'20px',height:'5px', borderRadius:'50%'}}data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li  style={{background:'rgba(131, 133, 123, .6)', width:'20px',height:'5px',borderRadius:'50%'}}data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
-  <div class="carousel-inner">
+  <div class="carousel-inner" >
  
     <div class="carousel-item active">
       <img width="300" class="d-block w-100" style={{ borderRadius:'50px',marginTop:'20px'}} src={test} alt="First slide"/>

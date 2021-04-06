@@ -27,10 +27,16 @@ function Herosection() {
              <div className="heading1"><p>India's Most Promising Job Site</p></div>
       <div className="heading2"><p>Simple 15 Days <br></br>To Get Your First Job</p></div>
       <div className="headertop">
-        <div className="number"><input type="tel" pattern="[5-9]{3}[0-9]{3}[0-9]{4}" className="number-in" placeholder="Enter Your Number to Get Started" onChange={(e)=>(setdata({...data,number:e.target.value}))}></input><button onClick={(e)=>{
-            submitHandler(e);
+        <div className="number"><input type="tel"   className="number-in" placeholder="Enter Your Number to Get Started" onChange={(e)=>((setdata({...data,number:e.target.value})))}></input>
+        <button onClick={(e)=>{          
+            (data.number>4000000000 && data.number<9999999999)&&
+            submitHandler(e)
+           
 
-          }} className="bt-in" onClick={handleShow1}><p>Go</p></button></div>
+          }} onClick={(e)=>(
+              (data.number>4000000000 && data.number<9999999999)?
+              handleShow1():(alert("Invalid Format of number"))
+          )} className="bt-in" ><p>Go</p></button></div>
 
 
           
@@ -49,7 +55,7 @@ function Herosection() {
 
               > 
         <Modal.Body> 
-            <img style={{zIndex:'-1', marginLeft:'-10%'}} width="300"src={pop}></img>
+            <img style={{zIndex:'-1', marginLeft:'-50%'}} width="500"src={pop}></img>
        
    
 </Modal.Body>        

@@ -23,10 +23,13 @@ function Details() {
       <div className="detailsslide" style={{marginTop: '5rem', width:'100%'}}>
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
-    <li style={{background:'rgba(245, 214, 235, .6)'}}data-target="#carouselExampleIndicators" data-slide-to="0" ></li>
-    <li style={{background:'rgba(245, 214, 235, .6)'}}data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li style={{background:'rgba(245, 214, 235, .6)'}} data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li style={{background:'rgba(212, 214, 203, .6)',width:'20px',height:'5px', borderRadius:'50%'}}data-target="#carouselExampleIndicators" data-slide-to="0" ></li>
+    <li style={{background:'rgba(212, 214, 203, .6)', width:'20px',height:'5px',borderRadius:'50%'}}data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li  style={{background:'rgba(212, 214, 203, .6)',width:'20px',height:'5px', borderRadius:'50%'}}data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li  style={{background:'rgba(212, 214, 203, .6)',width:'20px',height:'5px', borderRadius:'50%'}}data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  
   </ol>
+   
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img  width="300" style={{borderRadius:'37px'}} src={CD1} alt="First slide"/>
@@ -41,7 +44,6 @@ function Details() {
       <img  width="300" style={{borderRadius:'37px'}}src={CD4} alt="Forth slide"/>
     </div>
   </div>
-
 </div>
 </div>
        
