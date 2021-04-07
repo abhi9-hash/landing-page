@@ -34,7 +34,7 @@ function Experts() {
             <h5 style={{
   fontFamily: 'Montserrat, sans-serif'}}>ICICI Lomabrd General Insurance  </h5>
             <h5 style={{
-  fontFamily: 'Montserrat, sans-serif'}}><a color="white" href="https://www.linkedin.com/in/rachnakacker/"><i style={{transform:'scale(1.5)'}}  class="linkedin alternate icon"></i></a></h5>
+  fontFamily: 'Montserrat, sans-serif'}}><a color="white" href="https://www.linkedin.com/in/02pankaj93/"><i style={{transform:'scale(1.5)'}}  class="linkedin alternate icon"></i></a></h5>
             </div>
             
             </div>
@@ -47,7 +47,7 @@ function Experts() {
             <h5 style={{
   fontFamily: 'Montserrat, sans-serif'}}>Career & Resume Specialist, Communication Expert  </h5>
             <h5 style={{
-  fontFamily: 'Montserrat, sans-serif'}}><a color="white" href="https://www.linkedin.com/in/akansha-bajaj-022a75113"><i style={{transform:'scale(1.5)'}} class="linkedin alternate icon"></i></a></h5>
+  fontFamily: 'Montserrat, sans-serif'}}><a color="white" href="https://www.linkedin.com/in/rachnakacker/"><i style={{transform:'scale(1.5)'}} class="linkedin alternate icon"></i></a></h5>
             </div>
             
             </div>
