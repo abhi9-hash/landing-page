@@ -17,7 +17,7 @@ function Testimonials() {
       };
     return (
         <div>
-             <div  className="heading5"><p> Testimonials</p></div>
+             <div  className="heading5"><p>Hear from our students</p></div>
        <div><img className="img7" src={bgelement5} style={{maxWidth:'30vw',position:'absolute', marginTop:'-180px',marginLeft:'-650px',zIndex:'-1'}}></img> 
         <img className="img8" src={bgelement3} style={{maxWidth:'30vw',position:'absolute', marginTop:'-500px',zIndex:'-1',marginLeft:'-700px'}}></img> 
         </div>

@@ -82,15 +82,15 @@ function App() {
   return (
     <div className="App">
       <Navhead/>
-     <Herosection/>
+      <Herosection/> 
      <Jobs/>
-     <div className="heading4"  > 
-        <button className="heading4-bt" onClick={handleShow} style={{boxShadow: '0 7px 2px 0 rgba(0, 0, 0, 0.05)'}}><p> Get Your Next Job Now! </p></button>
+     <div className="heading4" style={{marginBottom:'5rem'}} > 
+        <button className="heading4-bt" id="plans" onClick={handleShow} style={{boxShadow: '0 7px 2px 0 rgba(0, 0, 0, 0.05)'}}><p> Get Your Next Job Now! </p></button>
         </div>
-     <About/>
+      <About/>
      <Plans/>    
      
-     <div className="button"  id="details"> <button onClick={handleShow} className="bt"><p>Register</p></button></div>
+     <div className="heading4"  id="details"> <button onClick={handleShow} className="heading4-bt"><p>Get Your Next Job Now!</p></button></div>
      <Modal  
         style={{ backgroundColor:'transparent',borderRadius:'50px'}}
       show={show} onHide={handleClose} size="sm"
@@ -98,6 +98,7 @@ function App() {
               centered
               className="modal"
               bsPrefix="bp"
+              backdrop={false}
 
               >
                   <Modal.Header style={{borderBottomColor:'transparent',textAlign:'center'}} closeButton >
@@ -165,7 +166,7 @@ function App() {
       
 
      <Details/> 
-        <div style={{marginTop:'10px'}} className="button"> <button onClick={handleShow} className="bt"><p>Register</p></button></div>
+        <div style={{marginTop:'10px'}} className="heading4"> <button onClick={handleShow} className="heading4-bt"><p>Get Your Next Job Now!</p></button></div>
      
      
       <Coursefor/>

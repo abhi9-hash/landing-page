@@ -25,9 +25,9 @@ function Herosection() {
         <div className="hero" id="home" >
             <div className="hero1" >
              <div className="heading1"><p>India's Most Promising Job Site</p></div>
-      <div className="heading2"><p>Simple 15 Days <br></br>To Get Your First Job</p></div>
+      <div className="heading2"><p>Master the art of Sales in 15 days<br></br>and get a Guaranteed Job</p></div>
       <div className="headertop">
-        <div className="number"><input type="tel"   className="number-in" placeholder="Enter Your Number to Get Started" onChange={(e)=>((setdata({...data,number:e.target.value})))}></input>
+        <div className="number"><input type="tel"   className="number-in" placeholder="Enter Your Number" onChange={(e)=>((setdata({...data,number:e.target.value})))}></input>
         <button onClick={(e)=>{          
             (data.number>4000000000 && data.number<9999999999)&&
             submitHandler(e)
@@ -36,7 +36,7 @@ function Herosection() {
           }} onClick={(e)=>(
               (data.number>4000000000 && data.number<9999999999)?
               handleShow1():(alert("Invalid Format of number"))
-          )} className="bt-in" ><p>Go</p></button></div>
+          )} className="bt-in" ><p>Start</p></button></div>
 
 
           

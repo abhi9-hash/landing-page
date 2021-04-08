@@ -106,7 +106,7 @@ const [open, setOpen] = useState(false);
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav" >
   <div style={{display:"flex", justifyContent:"space-evenly", color:"black",alignItems:"center", marin:"0 auto", width:"100%"}}>
-     <Nav.Link   href="#about" style={{color:"black"}}>About</Nav.Link>
+     <Nav.Link   href="#expert" style={{color:"black"}}>Experts</Nav.Link>
      <Nav.Link   href="#plans" style={{color:"black"}}>Plans</Nav.Link>
      <Nav.Link   href="#details" style={{color:"black"}}>Details</Nav.Link>
   </div>   

@@ -7,7 +7,7 @@ import bgelement1 from '../img/bg-element1.svg';
 function Plans() {
     return (
         <div>
-        <div className="heading61" style={{width:'100vw'}}>
+        <div className="heading61" style={{width:'100%'}}>
           
         {/* <img style={{marginRight:'20vw',marginLeft:'-40vw',marginTop:'-30rem',width:'40rem', zIndex:'-1'}} 
           src={bgelement4}></img> */}
