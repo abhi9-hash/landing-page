@@ -707,9 +707,9 @@ li div{
   display:grid;
   width:100%;
   margin: 10rem auto;
-  grid-template-rows:repeat(auto-fit,minmax(300px,1fr)); 
+  grid-template-rows:repeat(auto-fit,1fr); 
   grid-template-columns: repeat(auto-fit,minmax(275px,1fr));
-  grid-row-gap: 15vh;
+  grid-row-gap: 5vh;
   grid-column-gap:5vw;
   margin-top: -5rem;
 } 
@@ -987,7 +987,7 @@ li div{
   }
   .heading6 {
     margin-top: 3rem;
-    margin-bottom: 3rem;
+    padding-bottom: 3rem;
 
   }
   .heading61 {

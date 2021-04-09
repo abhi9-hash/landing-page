@@ -8,7 +8,7 @@ function Experts() {
     return (
         <div>
                   <div className="heading6" id="expert"><p > Meet Our Experts</p></div>
-      <div><img className="img9" src={bgelement5} style={{width:'35%',position:'relative', marginTop:'-15rem',marginLeft:'57%',zIndex:'-1'}}></img> 
+      <div><img className="img9" src={bgelement5} style={{width:'35%',position:'relative', marginTop:'-15rem', marginBottom:'-15rem',marginLeft:'57%',zIndex:'-1'}}></img> 
           </div>
 
      <div className="grid5">
