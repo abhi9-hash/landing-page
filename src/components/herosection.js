@@ -64,10 +64,10 @@ function Herosection() {
       </div>
         </div>
         </div>
-        <div className="hero2" style={{display:'flex', justifyContent:'center', alignItems:'flex-start',zIndex:'-1'}}>
-        <img width="22rem" height="16rem" src={one} style={{position:"absolute", zIndex:'-1', marginTop:'-9rem', marginLeft:'-10rem', width:"22rem" ,height:"16rem"}}></img>
-         <img  src={two} style={{position:"absolute", zIndex:'-1',marginTop:'-2rem', marginLeft:'-2rem',width:"22rem" ,height:"16rem" }}></img>
-        <img  id="about" src={three} style={{position:"absolute", zIndex:'-1', marginTop:'80px', marginLeft:'-10rem', width:"22rem" ,height:"16rem"}}></img> 
+        <div className="hero2">
+        <img  src={one} style={{position:"absolute", zIndex:'-1', marginTop:'-9rem', marginLeft:'-8rem', width:"40vh" ,height:"auto"}}></img>
+         <img  src={two} style={{position:"absolute", zIndex:'-1',marginTop:'-2rem',width:"40vh" ,height:"auto" }}></img>
+        <img  id="about" src={three} style={{position:"absolute", zIndex:'-1', marginTop:'80px', marginLeft:'-8rem', width:"40vh" ,height:"auto"}}></img> 
         </div>
             
         </div>

@@ -85,7 +85,7 @@ function App() {
       <Herosection/> 
      <Jobs/>
      <div className="heading4" style={{marginBottom:'5rem'}} > 
-        <button className="heading4-bt" id="plans" onClick={handleShow} style={{boxShadow: '0 7px 2px 0 rgba(0, 0, 0, 0.05)'}}><p> Get Your Next Job Now! </p></button>
+        <button className="heading4-bt"  onClick={handleShow} style={{boxShadow: '0 7px 2px 0 rgba(0, 0, 0, 0.05)'}}><p> Get Your Next Job Now! </p></button>
         </div>
       <About/>
      <Plans/>    

@@ -7,14 +7,14 @@ import bgelement1 from '../img/bg-element1.svg';
 function Plans() {
     return (
         <div>
-        <div className="heading61" style={{width:'100%'}}>
+        <div id="plans" className="heading61" style={{width:'100%'}}>
           
         {/* <img style={{marginRight:'20vw',marginLeft:'-40vw',marginTop:'-30rem',width:'40rem', zIndex:'-1'}} 
           src={bgelement4}></img> */}
-        <img style={{width:'30vw', zIndex:'-1',position:'absolute',marginLeft:'-40vw',marginTop:'7rem'}} src={bgelement6}>
+        <img  style={{width:'30vw', zIndex:'-1',position:'absolute',marginLeft:'-40vw',marginTop:'7rem'}} src={bgelement6}>
           </img>
           
-          <p> Our Plans </p>
+          <p > Our Plans </p>
         
         <img style={{width:'30vw', zIndex:'-1',position:'absolute',marginTop:'-20rem'}} src={bgelement5}>
           </img>
@@ -23,7 +23,7 @@ function Plans() {
         
         <img style={{width:'30vw', zIndex:'-1',position:'absolute',marginTop:'-20remx'}} src={bgelement1}></img></div>
         
-        <div className="grid3" >
+        <div className="grid3"  >
         <div className="grid1-3">
           <div className='top'>
             <p>● Interactive Live Classes</p>

@@ -16,9 +16,9 @@ function About() {
             
         <div>
           <img  
-          style={{maxHeight:'20rem',maxWidth:'15rem',zIndex:'-1',position:'absolute', marginTop:'-6rem'}} 
+          style={{maxHeight:'20rem',maxWidth:'15rem',zIndex:'-1',position:'absolute', marginTop:'-6rem',width:'33%'}} 
           src={bgelement1}></img> 
-          <div className="heading5"><p> How we Make <br></br>a Difference</p></div>
+          <div className="heading5" ><p> How we Make <br></br>a Difference</p></div>
           
           <div className="header"><img 
           src={bgelement4}></img>
@@ -33,13 +33,13 @@ function About() {
         <div className="grid-2" ><img src={how4} style={{marginTop:'-8rem', zIndex:'1'}}  ></img><div><p>Expert Curated Programs</p></div></div>
         <div className="grid-3"><img  src={how2} style={{marginTop:'-8rem'}}></img><div><p>Free Interview Preparation Toolkit</p></div></div>
         </div>
-         <div className="grid20" >
+         <div className="grid20"  >
         <div className="grid-4" ><img  style={{marginTop:'-8rem'}} src={how5} ></img><div><p>Assured Moneyback On Promise Break</p></div></div>
-        <div className="grid-6" ><img   src={how3} style={{marginTop:'-10rem'}}></img><div><p>One to One Assistance</p></div></div>
+        <div  className="grid-6" ><img  src={how3} style={{marginTop:'-10rem'}}></img><div><p>One to One Assistance</p></div></div>
         </div> 
          <div >
-          <img id="plans" src={bgelement5} style={{position:'absolute',marginLeft:'-15vw',marginTop:'-10rem',width:'40vw', zIndex:'-1'}}></img>
-          <img src={bgelement2} style={{position:'absolute',marginTop:'4rem',marginLeft:'15vw',width:'40vw', zIndex:'-1'}}></img>
+          <img  src={bgelement5} style={{position:'absolute',marginLeft:'-15vw',marginTop:'-10rem',width:'35vw', zIndex:'-1'}}></img>
+          <img  src={bgelement2} style={{position:'absolute',marginTop:'4rem',marginLeft:'15vw',width:'35vw', zIndex:'-1'}}></img>
           </div> 
         </div>
             
