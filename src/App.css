@@ -15,6 +15,8 @@
 .grid1 div div img{
   max-height:80% ;
   max-width: 80%;
+  margin-left: -110%;
+  position: sticky;
 }
 
 .grid1 div .div{
@@ -23,6 +25,8 @@
   width: 13rem;
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 10px;
   background: linear-gradient(to right, #ffafbd 0%, #ffc3a0 100%);
@@ -40,7 +44,6 @@ align-items: flex-start;
   display:flex;
   justify-content:center;
   align-items:center;
-  position:absolute;
   margin-left:10rem;
   box-shadow: 0 7px 2px 0 rgba(0, 0, 0, 0.12);
    margin-bottom:12rem;
@@ -1035,14 +1038,13 @@ li div{
   }
 
   .div>div{
-    height:4.5vh;
+    min-height:4.5vh;
     width:4.5vh;
     border-radius:50%;
     background-color:white;
     display:flex;
     justify-content:center;
     align-items:center;
-    position:absolute;
     margin-left:6rem;   
     box-shadow: 0 7px 2px 0 rgba(0, 0, 0, 0.12);
      margin-bottom:7rem;
