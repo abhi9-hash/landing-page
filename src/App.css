@@ -706,10 +706,10 @@ li div{
   font-family: 'Montserrat', sans-serif;
   display:grid;
   width:100%;
-  margin: 10rem auto;
-  grid-template-rows:repeat(auto-fit,1fr); 
+  margin: 5rem auto;
+  grid-template-rows:repeat(auto-fit,minmax(30vh,1fr)); 
   grid-template-columns: repeat(auto-fit,minmax(275px,1fr));
-  grid-row-gap: 5vh;
+  grid-row-gap: 20vh;
   grid-column-gap:5vw;
   margin-top: -5rem;
 } 
@@ -721,7 +721,7 @@ li div{
   border-radius: 30px;
   width: 19rem;
   height: 19rem;
-  margin: 108.8px auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

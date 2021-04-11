@@ -8,14 +8,15 @@ function Experts() {
     return (
         <div>
                   <div className="heading6" id="expert"><p > Meet Our Experts</p></div>
-      <div><img className="img9" src={bgelement5} style={{width:'35%', marginTop:'-10rem', marginBottom:'-15rem',marginLeft:'57%',zIndex:'-1'}}></img> 
+      <div><img className="img9" src={bgelement5} style={{width:'35%', marginTop:'20rem', marginBottom:'-15rem',marginLeft:'57%',zIndex:'-1'}}></img> 
           </div>
 
      <div className="grid5">
         <div className="grid15" >
           <div className="div">
-            <div style={{height:'12rem',width:'12rem',borderRadius:'50%',backgroundColor:'white', display:'flex',justifyContent:'center', alignItems:'center',  marginBottom:'25rem'}}><img style={{height:'12rem',width:'12rem',borderRadius:'50%'}}src={expert1}></img>
+            <div style={{height:'12rem',width:'12rem',borderRadius:'50%',backgroundColor:'white', display:'flex',justifyContent:'center', alignItems:'center', position:'sticky', marginBottom:'1rem', marginTop:'-10rem'}}><img style={{height:'12rem',width:'12rem',borderRadius:'50%'}}src={expert1}></img>
             </div>
+            
             <h2 style={{
   fontFamily: 'Montserrat, sans-serif'}}>Akansha Bajaj </h2>
             <h5 style={{
@@ -23,11 +24,12 @@ function Experts() {
             <h5 style={{
   fontFamily: 'Montserrat, sans-serif'}}><a  color="white" href="https://www.linkedin.com/in/akansha-bajaj-022a75113"><i style={{transform:'scale(1.5)'}} class="linkedin alternate icon"></i></a> </h5>
             </div>
+           
             
             </div>
             <div className="grid25" >
             <div className="div">
-            <div style={{height:'12rem',width:'12rem',borderRadius:'50%',backgroundColor:'white', display:'flex',justifyContent:'center', alignItems:'center',  marginBottom:'25rem'}}><img style={{height:'12rem',width:'12rem',borderRadius:'50%'}}src={expert2}></img>
+            <div style={{height:'12rem',width:'12rem',borderRadius:'50%',backgroundColor:'white', display:'flex',justifyContent:'center', alignItems:'center', position:'sticky', marginBottom:'1rem', marginTop:'-10rem'}}><img style={{height:'12rem',width:'12rem',borderRadius:'50%'}}src={expert2}></img>
             </div>
             <h2 style={{
   fontFamily: 'Montserrat, sans-serif'}}>Pankaj Pandey</h2>
@@ -40,7 +42,7 @@ function Experts() {
             </div>
             <div className="grid35" >
             <div className="div">
-            <div style={{height:'12rem',width:'12rem',borderRadius:'50%',backgroundColor:'white', display:'flex',justifyContent:'center', alignItems:'center',  marginBottom:'25rem'}}>< img style={{height:'12rem',width:'12rem',borderRadius:'50%'}}src={expert3}></img>
+            <div style={{height:'12rem',width:'12rem',borderRadius:'50%',backgroundColor:'white', display:'flex',justifyContent:'center', alignItems:'center',position:'sticky', marginBottom:'1rem', marginTop:'-10rem'}}>< img style={{height:'12rem',width:'12rem',borderRadius:'50%'}}src={expert3}></img>
             </div>
             <h2 style={{
   fontFamily: 'Montserrat, sans-serif'}}>Rachna Kakkar</h2>
