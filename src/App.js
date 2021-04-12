@@ -1,22 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
 import axios from 'axios';
-import bgelement1 from './img/bg-element1.svg';
-import bgelement2 from './img/bg-element4.svg';
-import bgelement3 from './img/bg-element6.svg';
-import bgelement4 from './img/bg-element2.svg';
-import bgelement5 from './img/bg-element3.svg';
-import bgelement6 from './img/bg-element5.svg';
-import CD1 from './img/CD1.png'
-import CD2 from './img/CD2.png'
-import CD3 from './img/CD3.png'
-import CD4 from './img/CD4.png'
+
 import pop from './img/popup.png'
-import mainbg from './img/main-bg.svg';
 
 import 'semantic-ui-css/semantic.min.css';
-import {  Form, Container, Header} from 'semantic-ui-react';
-import {Button,Modal, Nav, Navbar} from 'react-bootstrap';
+import {  Form, Container} from 'semantic-ui-react';
+import {Modal} from 'react-bootstrap';
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect } from 'react';
@@ -71,14 +61,6 @@ function App() {
   }
 
 
-
-  var settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  };
   return (
     <div className="App">
       <Navhead/>

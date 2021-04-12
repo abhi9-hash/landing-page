@@ -5,7 +5,6 @@ import test3 from '../img/test3.webp';
 import Carousel from 'react-elastic-carousel';
 import bgelement3 from '../img/bg-element6.svg';
 import bgelement5 from '../img/bg-element3.svg';
-import {caraousel} from 'bootstrap'
 
 function Testimonials() {
     var settings = {

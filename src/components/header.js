@@ -2,10 +2,9 @@ import React, { useState } from 'react'
 import pop from '../img/popup.png'
 import logo from '../img/logo-prep.svg'
 import axios from 'axios';
-import { Button, Nav, Navbar, Carousel,Modal, NavbarBrand, Collapse } from 'react-bootstrap'
+import { Button, Nav, Navbar,Modal } from 'react-bootstrap'
 
-import {  Form, Container, Header} from 'semantic-ui-react';
-import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
+import {  Form, Container} from 'semantic-ui-react';
 
 
 export default function Navhead() {
@@ -120,7 +119,7 @@ const [open, setOpen] = useState(false);
 <Navbar style={{backgroundColor:"white",display:"flex", fontSize:"1rem",justifyContent:"space-between", margin:"0 auto",  paddingTop:'1vh'}} fixed="top" expand="lg">
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse  id="basic-navbar-nav" >
-   <Nav ><Nav.Link  href="#about" style={{color:"black"}}>About</Nav.Link>
+   <Nav ><Nav.Link   href="#expert" style={{color:"black"}}>Experts</Nav.Link>
      <Nav.Link  href="#plans" style={{color:"black"}}>Plans</Nav.Link>
      <Nav.Link  href="#details" style={{color:"black"}}>Details</Nav.Link>
      </Nav>  
