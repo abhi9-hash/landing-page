@@ -920,6 +920,9 @@ li div{
   animation-fill-mode: both;
   animation-iteration-count: infinite;
 }
+.img9{
+  margin-top: 5rem;
+}
 
 @keyframes example {
   from {bottom: 0px;}
@@ -1015,6 +1018,9 @@ li div{
   } 
   .grid5{
     margin-top: 0;
+  }
+  .img9{
+    margin-top: 15rem;
   }
   .grid1 div .div{
     border-radius: 35px;
