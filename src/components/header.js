@@ -8,7 +8,8 @@ import {  Form, Container} from 'semantic-ui-react';
 
 
 export default function Navhead() {
-  const [data, setdata]=useState({name:'', number:''
+  var current = new Date();
+  const [data, setdata]=useState({name:'', number:'', time:`${current}` 
 })
 const [open, setOpen] = useState(false);
   const [show, setShow] = useState(false);

@@ -42,7 +42,8 @@ const useScript = url => {
 };
 
 function App() {
-  const [data, setdata]=useState({name:'', number:''
+  var current = new Date();
+  const [data, setdata]=useState({name:'', number:'', time:`${current}`
 })
   const [show, setShow] = useState(false);
   const [show1, setShow1] = useState(false);

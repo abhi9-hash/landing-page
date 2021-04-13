@@ -11,8 +11,9 @@ function Herosection() {
   const [show1, setShow1] = useState(false);
   const handleClose1 = () => setShow1(false);
   const handleShow1 = () => setShow1(true);
+  var current = new Date();
 
-    const [data, setdata]=useState({name:'', number:''})
+    const [data, setdata]=useState({name:'', number:'', time:`${current}`})
     function submitHandler (e) {
         e.preventDefault();
         console.log(data);
