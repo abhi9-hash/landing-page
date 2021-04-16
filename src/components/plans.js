@@ -3,6 +3,8 @@ import bgelement4 from '../img/bg-element2.svg';
 import bgelement5 from '../img/bg-element3.svg';
 import bgelement6 from '../img/bg-element5.svg';
 import bgelement1 from '../img/bg-element1.svg';
+import plan1 from '../img/plan1.png';
+import plan2 from '../img/plan2.png';
 
 function Plans() {
     return (
@@ -25,7 +27,9 @@ function Plans() {
         
         <div className="grid3"  >
         <div className="grid1-3">
-          <div className='top'>
+          <img width="100%" height="auto" src={plan1}></img>
+          
+          {/* <div className='top'>
             <p>● Interactive Live Classes</p>
             <p>● Lifetime Access.</p>
             <p>● Build Resume and Linkedin Profile</p>
@@ -33,10 +37,11 @@ function Plans() {
             <p>● Job Opportunities at Top companies</p> </div>
             <div className="free">
               <p><strike>3,999/-</strike>  1,999/-</p>
+              </div> */}
               </div>
-              </div>
-              <div className="grid2-3">
-              <div  style={{ borderTopLeftRadius: '30px',
+              {/* <div className="grid2-3">
+              
+               <div  style={{ borderTopLeftRadius: '30px',
   borderTopRightRadius:' 30px',backgroundColor: '#92ffa9',
   width: '100%'}}>
             <p>Recommended</p>
@@ -52,10 +57,12 @@ function Plans() {
             <p>● Free GD, HR & Technical Interview Practice</p></div>
             <div className="free">
             <p><strike>7,999/-</strike>  3,999/-</p>
-              </div>
-              </div>
-              <div className="grid3-3">
-          <div className='top'>
+              </div> 
+              </div> */}
+           <div className="grid3-3">
+
+           <img width="100%" height="auto" src={plan2}></img>
+          {/* <div className='top'>
           <p>● Interactive Live Classes</p>
             <p>● Lifetime Access.</p>
             <p>● Build Resume and Linkedin Profile</p>
@@ -67,8 +74,8 @@ function Plans() {
             <p>● Free GD, HR & Technical Interview Practice</p> </div>
             <div className="free">
             <p><strike>15,999/-</strike>  7,999/-</p>
-              </div>
-              </div>
+              </div> */}
+              </div> 
        </div>
             
         </div>

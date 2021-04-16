@@ -513,18 +513,19 @@ input{
 }
 
 .grid3>div {
-  background-image: linear-gradient(1deg, #ffafbd 4%, #ffc3a0 86%);
+  /* background-image: linear-gradient(1deg, #ffafbd 4%, #ffc3a0 86%); */
   display: flex;
+  background-color: transparent;
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 450px;
+  height: 500px;
   font-size: x-large;
-  width: 300px;
+  width: 350px;
   margin: 0 auto;
   border-radius: 34.7px;
-  box-shadow: 0 7px 2px 0 rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 7px 2px 0 rgba(0, 0, 0, 0.15); */
 }
 
 .grid3 .grid1-3 .top   {
