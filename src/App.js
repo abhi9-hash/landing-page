@@ -5,7 +5,6 @@ import axios from 'axios';
 import pop from './img/popup.png'
 
 import 'semantic-ui-css/semantic.min.css';
-import {  Form, Container} from 'semantic-ui-react';
 import {Modal} from 'react-bootstrap';
 import { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
