@@ -4,7 +4,6 @@ import logo from '../img/logo-prep.svg'
 import axios from 'axios';
 import { Button, Nav, Navbar,Modal } from 'react-bootstrap'
 
-import {  Form, Container} from 'semantic-ui-react';
 
 
 export default function Navhead() {
