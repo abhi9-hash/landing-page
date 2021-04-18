@@ -68,12 +68,12 @@ function App() {
       <Herosection/> 
      <Jobs/>
      <div className="heading4" style={{marginBottom:'5rem'}} > 
-        <button className="heading4-bt"  onClick={handleShow} style={{boxShadow: '0 7px 2px 0 rgba(0, 0, 0, 0.05)'}}><p> Get Your Next Job Now! </p></button>
+        <button className="heading4-bt"  style={{boxShadow: '0 7px 2px 0 rgba(0, 0, 0, 0.05)',width:'18rem'}}><p><a href="https://prepnjob.typeform.com/to/ySvT3ePm" target="blank" style={{color:'black', textDecoration:'none'}}> Get Enrolled! </a></p></button>
         </div>
       <About/>
      <Plans/>    
      
-     <div className="heading4"  id="details"> <button onClick={handleShow} className="heading4-bt"><p>Get Your Next Job Now!</p></button></div>
+     {/* <div className="heading4"  id="details"> <button onClick={handleShow} className="heading4-bt"><p>Get Your Next Job Now!</p></button></div> */}
      <Modal  
         style={{ backgroundColor:'transparent',borderRadius:'50px'}}
       show={show} onHide={handleClose} size="sm"
@@ -149,8 +149,9 @@ function App() {
       
 
      <Details/> 
-        <div style={{marginTop:'10px'}} className="heading4"> <button onClick={handleShow} className="heading4-bt"><p>Get Your Next Job Now!</p></button></div>
-     
+     <div className="heading4" style={{marginTop:'5rem'}} > 
+        <button className="heading4-bt"  style={{boxShadow: '0 7px 2px 0 rgba(0, 0, 0, 0.05)'}}><p><a href="https://prepnjob.typeform.com/to/ySvT3ePm" target="blank" style={{color:'black', textDecoration:'none'}}> Get Your Next Job Now! </a></p></button>
+        </div>
      
       <Coursefor/>
       <Testimonials/>    

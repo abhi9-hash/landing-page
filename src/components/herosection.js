@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import one from '../img/one.png';
 import two from '../img/two.png';
 import three from '../img/three.png';
-import axios from 'axios';
-import pop from '../img/popup.png'
-import { Modal } from 'react-bootstrap';
+// import axios from 'axios';
+// import pop from '../img/popup.png'
+import {  Nav } from 'react-bootstrap';
 
 
 function Herosection() {
@@ -14,35 +14,37 @@ function Herosection() {
   var current = new Date();
 
     const [data, setdata]=useState({name:'', number:'', time:`${current}`})
-    function submitHandler (e) {
-        e.preventDefault();
-        console.log(data);
-        axios.post('https://sheet.best/api/sheets/8f6e7f37-8126-4fda-ac72-a490ca0dd6e0', data)
-        .then(response => {
-          console.log(response);
-        })
-      }
+    // function submitHandler (e) {
+    //     e.preventDefault();
+    //     console.log(data);
+    //     axios.post('https://sheet.best/api/sheets/8f6e7f37-8126-4fda-ac72-a490ca0dd6e0', data)
+    //     .then(response => {
+    //       console.log(response);
+    //     })
+    //   }
     return (
         <div className="hero" id="home" >
             <div className="hero1" >
              <div className="heading1"><p>India's Most Promising Job Site</p></div>
-      <div className="heading2"><p>Master the art of Sales in 15 days<br></br>and get a Guaranteed Job</p></div>
+      <div className="heading2"><p>Get a sales job @ 0 cost.<br></br> Learn from experts in Live classes</p></div>
       <div className="headertop">
-        <div className="number"><input type="tel"   className="number-in" placeholder="Enter Your Number" onChange={(e)=>((setdata({...data,number:e.target.value})))}></input>
-        <button onClick={(e)=>{          
-            (data.number>4000000000 && data.number<9999999999)&&
-            submitHandler(e)
-           
-
-          }} onClick={(e)=>(
-              (data.number>4000000000 && data.number<9999999999)?
-              handleShow1():(alert("Invalid Format of number"))
-          )} className="bt-in" ><p>Start</p></button></div>
+        <div className="number">
+          {/* <input type="tel"   className="number-in" placeholder="Enter Your Number" onChange={(e)=>((setdata({...data,number:e.target.value})))}></input> */}
+        <Nav.Link 
+        // onClick={(e)=>{          
+        //     (data.number>4000000000 && data.number<9999999999)&&
+        //     submitHandler(e)
+        // }} onClick={(e)=>(
+          //     (data.number>4000000000 && data.number<9999999999)?
+          //     handleShow1():(alert("Invalid Format of number"))
+          // )} 
+          
+          className="bt-in" href="#plans"><p>Get Your Next Job Now!</p></Nav.Link></div>
 
 
           
 
-
+{/* 
       <div   onClick={handleClose1}>
      <Modal 
         style={{ backgroundColor:'transparent',borderRadius:'50px', background:'transparent'}}
@@ -62,7 +64,7 @@ function Herosection() {
 </Modal.Body>        
         
       </Modal>
-      </div>
+      </div> */}
         </div>
         </div>
         <div className="hero2">

@@ -362,7 +362,7 @@ margin-top: 5vh}
   width:100%;  
   margin-top: -150px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .number-in{
@@ -381,9 +381,9 @@ input{
 .bt-in p{
   letter-spacing: normal;
   text-align: center;
-  color: #777777;
+  color: #000000;
  font-family: 'Montserrat', sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: normal;
   font-stretch: normal;
   font-style: normal;
@@ -393,8 +393,8 @@ input{
   display: flex;
   justify-content: center;
   align-items: center;
-  width:10rem;
-  height: 7.5vh;
+  width:24rem;
+  height: 8vh;
   border-radius: 2.5rem;
   box-shadow: 0 7px 2px 0 rgba(0, 0, 0, 0.05);
   background-color: #83ffbe;
@@ -413,7 +413,7 @@ input{
   text-align: center;
   border-color: transparent;
   width: 22rem;
-  height: 5rem;
+  height: 4rem;
   margin: 5vh auto ;
   padding: 25px 25px 25px 25px;
   border-radius: 77.5px;
@@ -505,7 +505,7 @@ input{
   margin: 3rem auto;
   grid-template-rows:repeat(auto-fit,minmax(400px,1fr)); 
   grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-  grid-row-gap: 5vh;
+  grid-row-gap: 10vh;
   grid-column-gap:4rem;
 
 }
@@ -592,8 +592,8 @@ input{
 
 }
 
-.grid3>div:hover{
-  transform: scale(1.2);
+.grid3>div>img:hover{
+  transform: scale(1.15);
 
 }
 .grid4{
@@ -947,6 +947,10 @@ li div{
   }
 
 
+  .bt-in{
+    width:18rem;
+  }
+
   .grid1 div .div p {
     margin: 0 auto;
    font-family: 'Montserrat', sans-serif;
@@ -1248,7 +1252,7 @@ li div{
   margin:0 0;
 
 }
-.grid3>div:hover{
+.grid3>div>img:hover{
   transform: scale(1.05);
 
 }

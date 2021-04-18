@@ -27,7 +27,11 @@ function Plans() {
         
         <div className="grid3"  >
         <div className="grid1-3">
-          <img width="100%" height="auto" src={plan1}></img>
+          <img width="auto" height="80%" src={plan1}></img>
+          <div className="heading4"  id="details"> <button className="heading4-bt"  style={{boxShadow: '0 7px 2px 0 rgba(0, 0, 0, 0.05)',width:'18rem'}}><p><a href="https://prepnjob.typeform.com/to/ySvT3ePm" target="blank" style={{color:'black', textDecoration:'none'}}>Book Your Seat !!</a></p></button></div>
+           <p style={{fontSize:'2vh',marginTop:'-5vh'}}>Limited Seats</p>
+         
+
           
           {/* <div className='top'>
             <p>● Interactive Live Classes</p>
@@ -61,7 +65,10 @@ function Plans() {
               </div> */}
            <div className="grid3-3">
 
-           <img width="100%" height="auto" src={plan2}></img>
+           <img width="auto" height="80%" src={plan2}></img>
+           <div className="heading4"  id="details"> <button  className="heading4-bt" style={{boxShadow: '0 7px 2px 0 rgba(0, 0, 0, 0.05)',width:'18rem'}}><p><a href="https://prepnjob.typeform.com/to/BWoXT64i" target="blank" style={{color:'black', textDecoration:'none'}}>Start Your Test !!</a></p></button></div>
+    
+    
           {/* <div className='top'>
           <p>● Interactive Live Classes</p>
             <p>● Lifetime Access.</p>
